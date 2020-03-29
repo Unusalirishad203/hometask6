@@ -1,0 +1,59 @@
+body{
+	margin: 0;
+	padding:0;
+	background-color: white;
+}
+.container{
+	margin:0 auto;
+	width: 90%;
+}
+.logo,.navbar,.header,.footer{
+	height: 100px;
+	background-color:gray;
+
+}
+h1{
+	font-size:30px;
+	text-align: center;
+	padding-top: 35px;
+	margin: 0;
+}
+.navbar{
+	margin: 20px 0; 
+	height: 70px;
+	padding--top:32px;
+	padding-bottom: 10px;
+}
+.header{
+	height:400px;
+	padding-top: 200px;
+}
+.main{
+	
+	overflow: hidden;
+}
+.sidebar{
+	min-height: 300px;
+	width: 20%;
+	background-color: gray;
+	float: left;
+	margin-top: 10px;
+}
+.area{
+	min-height: 300px;
+	width: 78%;
+	background-color: gray;
+	float: right;
+	margin-top: 10px;
+}
+.sidebar h1{
+	padding: 150px 0;
+}
+.area h1{
+	padding:150px 0;
+}
+.footer{
+	padding-top: 15px;
+	margin-top: 10px;
+}
+	
